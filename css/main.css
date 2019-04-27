@@ -1,0 +1,133 @@
+h1{font-family: 'Slabo 27px', serif;}
+
+/*HEADER*/
+.backheader{
+	background-image:url(../img/forest.jpg);
+	background-size:cover;
+  min-height:800px;
+  overflow:hidden;
+	background-attachment:fixed;
+	background-repeat:no-repeat;}
+
+.frase{
+  color:#fff;
+  text-align:center;
+  font-size:100px;
+  position:relative;
+  top:300px;
+}
+
+/*MENU*/
+a, span{
+	color:#fff !important}
+
+  .menu li:hover{
+    background-color:green; 
+  }
+
+  .marnav{padding:0px 10px} 
+
+/*SECTION*/
+.pagina{
+	min-height:350px;
+  width:100%;
+}
+
+.pagina {
+    opacity: 0.5;
+    filter:alpha(opacity=40);
+}
+.pagina:hover {
+    opacity: 1.0;
+    filter:alpha(opacity=100);
+}
+
+.padcero
+{
+  padding:0 !important
+}
+
+
+/*CONTACTO*/
+
+.contacto{
+  background-image:url(../img/social.jpg);
+  background-size: cover;
+  min-height:650px;
+  padding-top:250px;
+}
+
+
+.social {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.social .link {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px dashed white;
+  background-clip: content-box;
+  padding: 10px;
+  transition: .5s;
+  color: #D7D0BE;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-shadow:
+    0 -1px 0 rgba(0, 0, 0, 0.2),
+    0 1px 0 rgba(255, 255, 255, 0.2);
+  font-size: 70px;
+}
+
+.social .link span {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social .link:hover {
+  padding: 20px;
+  color: white;
+  margin-left: -5px;
+  transform: translateX(10px) rotate(360deg);
+}
+
+.social .link.gmail {
+  background-color: tomato;
+  color: white;
+}
+
+.social .link.twitter {
+  background-color: #00ACEE;
+  color: white;
+}
+
+.social .link.github {
+  background-color: black;
+  color: white;
+}
+/*FOOTER*/
+.footer{
+	background-color:black;
+  margin:0px;
+	height:60px;
+	padding:20px;
+	color:white;}
+  
+
+
+
+
+
+
+
+
